@@ -17,9 +17,9 @@ This is my write-up of how I configured S3. There are many ways of doing it.
 
 You will need to create a file called .env if you haven't already and place it in the top level of your folder along with .gitignore. Cut and paste the following into .env and put your own values after the equal sign. Remember, this is just for localhost. You will need to set these variables again on Heroku. Your keys and bucket name will probably be the same, but you probably want to have a remote database, which you can set here, if you want. Any reference in the project to process.env will refer to these constants.
 
-AWS_ACCESS_KEY_ID=XXXXXXXXXXXXXXX
-AWS_SECRET_ACCESS_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-MONGODB_URI=mongodb://localhost:27017/db
+AWS_ACCESS_KEY_ID=XXXXXXXXXXXXXXX\n
+AWS_SECRET_ACCESS_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n
+MONGODB_URI=mongodb://localhost:27017/db\n
 S3_BUCKET_NAME=your-bucket-name
 
 Once you have set up your Amazon account correctly and created a .env file with the proper values, file uploading should work.
