@@ -4,15 +4,16 @@ This is a simple example using the MEAN stack and routes to upload images to Ama
 
 ## Installation
 
-This assumes you are using node.js, and MongoDB. Run npm start from the command line inside the folder.
+This assumes you are using node.js, and MongoDB. Run npm install from the command line inside the folder.
 
+### References
 - [ng-file-upload](https://github.com/danialfarid/ng-file-upload/blob/master/README.md) -
 I've just used some examples of things you can do with ng-file-upload, there's also an S3 tutorial on there.
 
-- [NukaPunk/mean-multer-ngf](https://github.com/NukaPunk/mean-multer-ngf) - Some of the code in this is from here. 
+- [NukaPunk/mean-multer-ngf](https://github.com/NukaPunk/mean-multer-ngf) - Some of the code in this is from here.
 
 ### Configuring Amazon
-This is my write-up of how I configured S3. There are many ways of doing it.
+To get file uploads to work, you have to generate two keys on Amazon. This is my write-up of how I configured S3. 
 - [Amazon S3 Setup](https://docs.google.com/document/d/1ksMWwm0hxe6UWmH0fEqVsS6fr8UxBwIFvEVPvVoE4og)
 
 ### Setting environment variables locally
